@@ -1,0 +1,31 @@
+h1 {
+    background-color: blanchedalmond;
+    color: brown;
+    font-size: 75px;
+    border: solid green 4px;
+}
+
+p{
+    color:white;
+    font-size: 40px;
+    border: solid blueviolet;
+
+}
+
+.bgpink {
+    background-color:blue;
+}
+
+.bouton{
+background-color: orange; /* fond orange*/
+font-size: 30px; /* taille de la police */
+color: white; /* couleur du texte */
+border-radius: 10px; /* arrondi de 10px dans les angles */
+text-decoration: none; /* retirer la decoration */
+padding: 10px 40px; /* marge intérieur */
+border-style: solid; 
+}
+
+.textCenter {
+    text-align: center;
+}
