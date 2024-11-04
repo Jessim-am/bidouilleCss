@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.bgPink {
+    background-color: pink;
+}
+
+.bgPurple {
+    background-color: purple;
+}
+
+section {
+    height: 100vh;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.box {
+    height: 110px;
+    width: 110px;
+    display: inline-block;
+}
+
+.bgYellow {
+    background-color: yellow;
+}
+
+.bgGreen {
+    background-color: green;
+}
+
+.boRad {
+    border-radius: 20px;
+}
+
+.borArr {
+    border-radius: 12px 30px;
+}
+
+.latoStatic{
+    font-family: "Lato", sans-serif;
+}
+  
+.bouton{
+    display:block;
+    text-decoration: none;
+    width: fit-content;
+    margin-bottom: 12px;
+    padding: 16px 32px;
+    /*background-color: blue;*/
+}
+
+.interBold{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 22px ;
+    color: black;
+}
+
+.interRegular{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.borderSolid{
+    border: 1px solid black;
+}
+
+.borderDashed{
+    border: 5px dashed black;
+}
+
+.bgGreen{
+    background-color: #61FF7B;
+}
+
+.bgBlue{
+background-color: #1398A0;
+}
+
+.borBou3et6{
+    border-radius: 32px;
+}
+
+.borBou4{
+border-radius: 0px 32px ;
+}
+
+.borBou5{
+border-radius: 5px;
+}
+
+.card{
+    
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px gray;
+   
+}
+
+.colorTexte{
+    color: white;
+}
+
+.bgBlue{
+    background-color: #1398A0;
+}
+
+.colorTxtVisit{
+    color:white;
+}
+
+.boutonVisit{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
