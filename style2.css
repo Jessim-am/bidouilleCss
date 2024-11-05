@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 .bgPink {
     background-color: pink;
 }
@@ -37,12 +38,12 @@ section {
     border-radius: 12px 30px;
 }
 
-.latoStatic{
+.latoStatic {
     font-family: "Lato", sans-serif;
 }
-  
-.bouton{
-    display:block;
+
+.bouton {
+    display: block;
     text-decoration: none;
     width: fit-content;
     margin-bottom: 12px;
@@ -50,69 +51,99 @@ section {
     /*background-color: blue;*/
 }
 
-.interBold{
+.interBold {
     font-family: "Inter", sans-serif;
     font-weight: 700;
-    font-size: 22px ;
+    font-size: 22px;
     color: black;
 }
 
-.interRegular{
+.interRegular {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
 }
 
-.borderSolid{
+.borderSolid {
     border: 1px solid black;
 }
 
-.borderDashed{
+.borderDashed {
     border: 5px dashed black;
 }
 
-.bgGreen{
+.bgGreen {
     background-color: #61FF7B;
 }
 
-.bgBlue{
-background-color: #1398A0;
-}
-
-.borBou3et6{
-    border-radius: 32px;
-}
-
-.borBou4{
-border-radius: 0px 32px ;
-}
-
-.borBou5{
-border-radius: 5px;
-}
-
-.card{
-    
-    border-radius: 10px;
-    box-shadow: 10px 5px 5px gray;
-   
-}
-
-.colorTexte{
-    color: white;
-}
-
-.bgBlue{
+.bgBlue {
     background-color: #1398A0;
 }
 
-.colorTxtVisit{
-    color:white;
+.borBou3et6 {
+    border-radius: 32px;
 }
 
-.boutonVisit{
+.borBou4 {
+    border-radius: 0px 32px;
+}
+
+.borBou5 {
+    border-radius: 5px;
+}
+
+.card {
+
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px gray;
+
+}
+
+.colorTexte {
+    color: white;
+}
+
+.bgBlue {
+    background-color: #1398A0;
+}
+
+.colorTxtVisit {
+    color: white;
+}
+
+.boutonVisit {
     text-decoration: none;
     padding: 10px;
     border-radius: 10px;
 }
 
+/*Designer la card*/
+
+.card{
+    width: 300px;
+    box-shadow: 4px 4px 12px #00000025; 
+    border-radius: 16px;
+    padding: 8px;
+    font-family: 'Inter','sans-serif';
+   
+}
+
+.card img{
+    display: block;
+    width: 100%;
+}
+.card .bouton{
+   margin-bottom: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.spaceAround{
+    justify-content: space-around;
+}
